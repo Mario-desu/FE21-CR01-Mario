@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*header section*/
+
+
+header {
+    background-color: #CABBB7;
+    height: 150px;
+    width: 100%;
+}
+
+header p {
+    font-size: 2.2vw;
+    color: #3C3737;
+    display: inline;
+    position: relative;
+    top: 45%;
+    left: 5%;
+    
+}
+
+header img {
+    width: 300px;
+    height: auto;
+    float: right;
+    margin: 15px 20px 10px 0;
+
+}
+
+
+/*navigation section*/
+
+nav {
+    background-color: #C65252;
+    color: whitesmoke;
+    height: 55px;
+    width: 100%;
+    vertical-align: middle;
+}
+
+
+
+ul {
+    float: right;
+    
+    margin-left: 5vw;
+    margin-right: 5vw;
+    
+    width: 40vw;
+    
+        
+        
+
+}
+
+nav li {
+    float:left;
+    list-style-type: none;
+    font-size: 2vw;
+    padding-right: 5%;
+    padding-top: 1v;
+    padding-bottom: 1vh
+    text-shadow: 0.25px 0.25px 0.5px grey;
+    
+}
+
+/*main section*/
+main {
+    height: 1600px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+
+}
+
+.heading-container {
+    text-align: center;
+
+    width: 100%;
+    height: 200px ;
+}
+
+h1 {
+    display: inline-block;
+    width: 26%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 37%;
+    margin-right: 37%;
+
+}
+
+
+#img-top {
+    margin-bottom: 4%;
+
+}
+
+
+
+#img-top img {
+    width: 100%
+}
+
+#img-top figcaption {
+    text-align: center;
+}
+
+.figctop, .figcbottom {
+    font-size: 1.6em;
+}
+
+.figcbottom {
+    text-align: center;
+    /*display:inline-block;*/
+    
+
+}
+
+
+
+
+
+
+
+.img-bottom {
+    width: 47%;
+    height: auto;
+    float: left;
+
+}
+
+.img-bottom img {
+    width: 97%;
+}
+
+.left{
+  
+    margin-right: 6%;
+}
+
+
+
+
+
+/*footer section*/
+
+footer {
+    background-color: #CABBB7;
+    height: 14vh;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+   
+    
+}
+
+
+
+.footer-container img {
+    width: 180px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
