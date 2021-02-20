@@ -47,10 +47,8 @@ nav {
 ul {
     float: right;
     
-    margin-left: 5vw;
-    margin-right: 5vw;
     
-    width: 40vw;
+    width: 600px;
     
         
         
@@ -60,10 +58,10 @@ ul {
 nav li {
     float:left;
     list-style-type: none;
-    font-size: 2vw;
+    font-size: 1.8em;
     padding-right: 5%;
-    padding-top: 1v;
-    padding-bottom: 1vh
+    padding-top: 1vH;
+    padding-bottom: 1vh;
     text-shadow: 0.25px 0.25px 0.5px grey;
     
 }
@@ -86,9 +84,10 @@ main {
 
 h1 {
     display: inline-block;
-    width: 26%;
+    font-size: 2.5em;
+    width: 35%;
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 7%;
     margin-left: 37%;
     margin-right: 37%;
 
