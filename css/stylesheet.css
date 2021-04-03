@@ -6,15 +6,19 @@
 
 /*header section*/
 
+body {
+    width: 100%;
+}
+
 
 header {
     background-color: #CABBB7;
-    height: 150px;
+    height: 20vh;
     width: 100%;
 }
 
 header p {
-    font-size: 2.2vw;
+    font-size: 2vw;
     color: #3C3737;
     display: inline;
     position: relative;
@@ -23,10 +27,10 @@ header p {
 }
 
 header img {
-    width: 300px;
-    height: auto;
+    width: auto;
+    height: 50%;
     float: right;
-    margin: 15px 20px 10px 0;
+    margin: 3vh 4vh 2vh 0;
 }
 
 
@@ -35,22 +39,23 @@ header img {
 nav {
     background-color: #C65252;
     color: whitesmoke;
-    height: 55px;
+    height: 5vh;
     width: 100%;
     vertical-align: middle;
 }
 
 ul {
-    float: right;
-    width: 600px;
+    float: left;
+    width: 25em;
+    padding-left: 3.5%
 }
 
 nav li {
     float:left;
     list-style-type: none;
-    font-size: 1.8em;
-    padding-right: 5%;
-    padding-top: 1vH;
+    font-size: 2.0vh;
+    padding-left: 5%;
+    padding-top: 1vh;
     padding-bottom: 1vh;
     text-shadow: 0.25px 0.25px 0.5px grey;
 }
@@ -62,7 +67,7 @@ li a {
 
 /*main section*/
 main {
-    height: 1600px;
+    height: 150vh;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -75,7 +80,7 @@ main {
 
 .heading-container h1 {
     display: inline-block;
-    font-size: 2.5em;
+    font-size: 3.5vh;
     width: 35%;
     margin-top: 5%;
     margin-bottom: 7%;
@@ -98,7 +103,7 @@ main {
 
 /*font-size figcaption 3 images*/
 .figctop, .figcbottom {
-    font-size: 1.6em;
+    font-size: 1em;
 }
 
 .figcbottom {
@@ -130,7 +135,7 @@ main {
 
 footer {
     background-color: #CABBB7;
-    height: 14vh;
+    height: 20vh;
     width: 100%;
     text-align: center;
     margin-bottom: 0;
@@ -141,27 +146,28 @@ footer {
 .footer-container img {
     width: 190px;
     padding-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 
 /*---------About-me-subpage------*/
 .main-about{
-    height: 1300px;
-    margin-left: 15%;
-    margin-right: 15%;
+    height: 170vh;
+    margin-left: 10%;
+    margin-right: 10%;
     background-color: #FFFAF0 ;
 }
 
 .main-about h1 {
-    padding-top: 20px;
-    letter-spacing: 3px;
+    padding-top: 2.5vh;
+    letter-spacing: 0.1em;
     font-size: 4em;
     text-align: center;
    
 }
 
 .img-wrapper img {
+    width: 60%;
     margin: 30px 20% 0 20%;
 }
 
@@ -170,17 +176,17 @@ footer {
 }
 
 .text-wrapper p {
-    font-size: 1.5em;
-    margin-top: 40px;
+    font-size: 1.2em;
+    margin-top: 3vh;
     margin-left: 15%;
     margin-right: 15%;
     text-align: justify;
-    line-height: 35px;
+    line-height: 2em;
 }
 
 /*--------contact-subpage----*/
 .main-contact {
-    height: 950px;
+    height: 100vh;
     margin-left: 15%;
     margin-right: 15%;
     background-color: #FFFAF0 ;
@@ -189,17 +195,17 @@ footer {
 
 .contact-form {
     text-align: center;
-    padding-top: 70px;
+    padding-top: 10vh;
 }
 
 input {
-    width: 600px;
-    height: 40px;
+    width: 85%;
+    height: 5vh;
 }
 
 textarea {
-    width: 600px;
-    height: 300px
+    width: 85%;
+    height: 28vh
 }
 
 .contact-form {
